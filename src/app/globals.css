@@ -31,7 +31,11 @@ main, form {
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
 
-h1, h2, h3 {
+h1 {
+  color: #7c3aed;
+}
+
+h2, h3 {
   font-weight: 600;
   margin-bottom: 18px;
 }
@@ -44,7 +48,7 @@ label, p, .form-label {
 
 input[type="text"], input[type="date"], textarea, select {
   width: 100%;
-  padding: 8px 12px;
+  padding: 8px 0px 8px 16px;
   margin-bottom: 18px;
   border: 1px solid #d1d5db;
   border-radius: 6px;
@@ -63,7 +67,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 button, input[type="submit"] {
-  background: #0070f3;
+  background: #7c3aed;
   color: #fff;
   border: none;
   padding: 10px 22px;
@@ -74,7 +78,7 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-  background: #005bb5;
+  background: #6d28d9;
 }
 
 /* Para tablas o listas de opciones */
